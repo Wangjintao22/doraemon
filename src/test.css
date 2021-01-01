@@ -62,10 +62,6 @@ li {
 }
 
 @media (max-width: 500px) {
-  .doraemon {
-    left: -48px;
-  }
-
   #demo {
     left: 0;
     width: 100%;

@@ -13,7 +13,6 @@ const string = `
   li {
     list-style: none;
   }
-  
   .doraemon {
     width: 500px;
     height: 610px;
@@ -23,6 +22,11 @@ const string = `
     top: 0;
     bottom: 0;
     margin: auto;
+  }
+  @media (max-width: 500px) {
+    .doraemon {
+      left: -48px;
+    }
   }
   .head {
     border: 2px solid black;
