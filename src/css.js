@@ -1,4 +1,5 @@
 const string = `
+<style>
 * {
     margin: 0;
     padding: 0;
@@ -511,5 +512,6 @@ const string = `
     transform: rotate(-30deg);
     z-index: 10;
   }
+</style
 `
 export default string
